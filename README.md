@@ -10,5 +10,5 @@ Usage:
 
 ```bash
 cd YourSrcDir
-docker run --rm -v "$PWD":/go/src/YourAppName -w /go/src/YourAppName tomoya0x00/cgo-cross:1.8.0-linux-arm go build -v
+docker run --rm -v %CD%:/go/src/YourAppName -w /go/src/YourAppName tomoya0x00/cgo-cross:1.8.0-linux-arm go build -v
 ```
